@@ -32,10 +32,16 @@ Built something similar years ago, for a friend with a small business and a stat
 
 ## Setup Instructions
 
-TBD
+Prerequisites:
+ - AWS Account
+ - Domain you own
+ - SES-verified domain and email(s)
+ - AWS CLI configured locally: [https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-prereqs.html)
 
 ## To Do
 
+- Add templating to pull in email(s), region, etc.
+- Add Github Actions to do the deploy instead of locally
 - Add spam filtering
 - Add reCAPTCHA integration
 - Add auto-responder email (have to clarify feasibility to sending external emails with SES)
